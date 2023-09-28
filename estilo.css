@@ -1,6 +1,14 @@
 /* Estilos padrão para telas grandes */
+/* Alterando o fundo do corpo para cinza escuro */
 body {
     font-size: 16px;
+    background-color: #333; /* Cinza escuro */
+    color: white; /* Cor do texto para branco */
+}
+
+/* Alterando a cor do texto na seção de descrição */
+.descricao {
+    color: white; /* Cor do texto para branco */
 }
 
 /* Estilos para telas menores, como tablets e dispositivos móveis */
@@ -76,8 +84,8 @@ body {
 
 /* Adicione estilos de borda/sombra quando o mouse passar por cima do card */
 .card:hover {
-    border: 2px solid #008054; /* Cor da borda ao passar o mouse */
-    box-shadow: 0 0 10px rgba(0, 128, 84, 0.5); /* Sombra ao passar o mouse */
+    border: 2px solid #27fbb1; /* Cor da borda ao passar o mouse */
+    box-shadow: 0 0 10px rgba(26, 250, 172, 0.5); /* Sombra ao passar o mouse */
 }
 
 .card h2 {
