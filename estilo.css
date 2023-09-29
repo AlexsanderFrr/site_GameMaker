@@ -68,36 +68,47 @@ body {
     margin: 20px;
 }
 
+
+
+/* Variáveis de cores para cada card */
+:root {
+    --leonardo-border-color: #3277fb;
+    --michelangelo-border-color: #f0a500;
+    --donatello-border-color: #747cfb;
+    --raphael-border-color: #ff5050;
+}
+
 .card {
-    background-color: #fff;
+    background-color: #f1f1f1;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
     margin-bottom: 20px;
-    width: 300px;
+    width: 250px;
     text-align: center;
-    transition: border 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease; /* Adicione uma transição suave para todos os estilos */
+    overflow: hidden; /* Para evitar que o card "pule" ao aumentar o tamanho */
 }
 
 /* Estilizando cada card individualmente */
 .card-leonardo {
-    border: 2px solid #3277fb;
+    border: 3px solid var(--leonardo-border-color);
 }
 
 .card-michelangelo {
-    border: 2px solid #f0a500;
+    border: 3px solid var(--michelangelo-border-color);
 }
 
 .card-donatello {
-    border: 2px solid #747cfb;
+    border: 3px solid var(--donatello-border-color);
 }
 
 .card-raphael {
-    border: 2px solid #ff5050;
+    border: 3px solid var(--raphael-border-color);
 }
 
 .card:hover {
-    box-shadow: 0 0 10px rgba(26, 250, 172, 0.5);
+    box-shadow: 0 0 20px rgba(26, 250, 172, 0.5); /* Troque o box-shadow ao passar o mouse */
+    transform: scale(1.05); /* Aumente o tamanho do card ao passar o mouse */
 }
 
 .card h2 {
