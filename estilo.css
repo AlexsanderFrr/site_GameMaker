@@ -21,7 +21,7 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to right, #32fb53, #008054,#32fb53 );
+    background: linear-gradient(to right, #1cf440a5, #029863,#008054, #029863,#1cf440a5 );
     border-radius: 10px;
     padding: 10px 0;
 }
@@ -53,11 +53,16 @@ body {
 
 /* Estilização do Footer */
 .footer {
-    background-color: #008054; /* Verde escuro */
-    color: #fff; /* Cor do texto no footer */
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1cf440a5, #029863, #008054, #029863, #1cf440a5);
+    color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+
 
 /* Estilos dos Cards */
 .cards {
