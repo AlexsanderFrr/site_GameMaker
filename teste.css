@@ -21,7 +21,7 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to right, #32fb53, #008054,#32fb53 );
+    background: linear-gradient(to right, #008054, #32fb53);
     border-radius: 10px;
     padding: 10px 0;
 }
@@ -60,11 +60,10 @@ body {
 }
 
 /* Estilos dos Cards */
-.cards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px;
+.card-carousel {
+    position: relative;
+    width: $card-size;
+    height:
 }
 
 
