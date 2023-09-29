@@ -3,6 +3,8 @@ body {
     font-size: 16px;
     background-color: #333; /* Cinza escuro */
     color: white; /* Cor do texto para branco */
+    margin: 0;
+     padding: 0;
 }
 
 /* Alterando a cor do texto na seção de descrição */
@@ -145,6 +147,8 @@ color:#f1f1f1
     padding: 35px 0;
     background: linear-gradient(to right, #1cf440a5, #029863,#008054, #029863,#1cf440a5 );
     color: white;
+    bottom: 0;
+    left: 0; 
   }
   
   .foot-note a {

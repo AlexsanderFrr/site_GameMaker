@@ -14,3 +14,18 @@
     height: 100px; /* Altura fixa para as imagens */
     border-radius: 50%; /* Tornar as imagens redondas */
     margin-bottom: 10px;}
+
+    .card-links {
+        margin-top: 10px;
+      }
+      
+      .card-links a {
+        text-decoration: none;
+        color: #005c3c;
+        margin-right: 20px;
+      }
+      
+      .card-links i {
+        margin-right: 5px;
+      }
+      
