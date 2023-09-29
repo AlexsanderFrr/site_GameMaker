@@ -1,0 +1,16 @@
+.card-contato {
+ background-color: rgba(241, 241, 241, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.3s ease; /* Adicione uma transição suave para todos os estilos */
+    overflow: hidden;
+}
+
+.card-contato img {
+    width: 100px; /* Largura fixa para as imagens */
+    height: 100px; /* Altura fixa para as imagens */
+    border-radius: 50%; /* Tornar as imagens redondas */
+    margin-bottom: 10px;}
