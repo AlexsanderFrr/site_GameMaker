@@ -123,3 +123,8 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+.card button{
+background:#008054;
+color:#f1f1f1
+}
