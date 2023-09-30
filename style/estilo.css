@@ -89,10 +89,12 @@ body {
   .nav {
     flex-direction: column; /* Coluna para dispositivos móveis */
     align-items: center; /* Centraliza os elementos verticalmente */
+    
   }
 
   .navbar-logo {
-    margin-bottom: 20px; /* Adiciona espaço entre o logotipo e os itens do menu */
+    margin-bottom: 20px; 
+    margin-top: 20px;
   }
 
   .nav ul {
@@ -103,8 +105,7 @@ body {
     display: block;
     margin: 10px 0; /* Adiciona espaço entre os itens do menu */
   }
-}
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     /* Restringindo a largura da div de contêiner */
     .nav-items-container {
       overflow-x: auto; /* Habilitando a rolagem horizontal */
@@ -117,6 +118,8 @@ body {
       margin-right: 10px; /* Espaçamento entre os itens */
     }
   }
+}
+
 
 /* Defina uma animação de brilho */
 @keyframes brilho {
