@@ -13,7 +13,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: justify; /* Alinhamento justificado */
   margin: 0 auto; /* Margens automáticas nas laterais para centralizar o texto */
-  max-width: 800px;;
+  max-width: 800px;
 }
 
 .titulos{
@@ -221,6 +221,17 @@ body {
   flex-direction: column; /* Empilhando elementos verticalmente */
   justify-content: center; /* Centralizando verticalmente */
   align-items: center; /* Centralizando horizontalmente */
+}
+
+.gif-container {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilos para o GIF */
+.tgif {
+  max-width: 100%; /* Define a largura máxima igual à do corpo de texto */
+  height: auto; /* Mantém a proporção original do GIF */
+  max-width: 400px; /* Reduz o tamanho do GIF, ajuste conforme necessário */
 }
 
 /* Estilização do Footer */
