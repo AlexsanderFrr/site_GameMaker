@@ -17,9 +17,12 @@
 
     .card-links {
         margin-top: 10px;
+        display: inline-block;
+        margin-left: 26px;
       }
       
       .card-links a {
+        
         text-decoration: none;
         color: #005c3c;
         margin-right: 20px;
