@@ -105,20 +105,7 @@ body {
     display: block;
     margin: 10px 0; /* Adiciona espaço entre os itens do menu */
   }
-  @keyframes brilho {
-    0% {
-      background-color: #1cf440a5;
-      box-shadow: 0 0 10px #1cf440a5;
-    }
-    50% {
-      background-color: #00ff00;
-      box-shadow: 0 0 20px #00ff00;
-    }
-    100% {
-      background-color: #1cf440a5;
-      box-shadow: 0 0 10px #1cf440a5;
-    }
-  }
+  
   @media screen and (max-width: 768px) {
     /* Restringindo a largura da div de contêiner */
     .nav-items-container {
@@ -137,7 +124,20 @@ body {
 
 /* Defina uma animação de brilho */
 
-
+@keyframes brilho {
+  0% {
+    background-color: #1cf440a5;
+    box-shadow: 0 0 10px #1cf440a5;
+  }
+  50% {
+    background-color: #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+  }
+  100% {
+    background-color: #1cf440a5;
+    box-shadow: 0 0 10px #1cf440a5;
+  }
+}
 
   .jogo {
     background-color: #1cf440a5;
