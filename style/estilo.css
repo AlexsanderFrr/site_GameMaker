@@ -118,6 +118,43 @@ body {
     }
   }
 
+/* Defina uma animação de brilho */
+@keyframes brilho {
+  0% {
+    background-color: #1cf440a5;
+    box-shadow: 0 0 10px #1cf440a5;
+  }
+  50% {
+    background-color: #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+  }
+  100% {
+    background-color: #1cf440a5;
+    box-shadow: 0 0 10px #1cf440a5;
+  }
+}
+
+
+  .jogo {
+    background-color: #1cf440a5;
+    font-family: 'Pixelify Sans', cursive;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    overflow: hidden;
+    padding: 12px 20px; /* Adicione preenchimento para tornar o botão maior */
+    border-radius: 20px; /* Adicione bordas arredondadas */
+    text-align: center; /* Centralize o texto horizontalmente no botão */
+    text-decoration: none; /* Remova a decoração de texto padrão */
+    display: inline-block; /* Torna o botão um elemento de bloco inline */
+    color: rgb(0, 0, 0); /* Cor do texto no botão */
+    animation: brilho 2s infinite;
+  }
+  
+  /* Estilo quando o mouse passa por cima do botão */
+  .jogo:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% (1.1 vezes o tamanho original) */
+    background-color: #00ff00; /* Altera a cor de fundo quando o mouse passa por cima */
+  }
 /* Estilos dos Cards */
 .cards {
   display: flex;
@@ -208,6 +245,7 @@ body {
   margin: 20px auto;
   padding: 20px;
   background-color: #008054;
+  border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -231,7 +269,7 @@ body {
 .tgif {
   max-width: 100%; /* Define a largura máxima igual à do corpo de texto */
   height: auto; /* Mantém a proporção original do GIF */
-  max-width: 400px; /* Reduz o tamanho do GIF, ajuste conforme necessário */
+  max-width: 800px; /* Reduz o tamanho do GIF, ajuste conforme necessário */
 }
 
 /* Estilização do Footer */
