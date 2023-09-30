@@ -24,7 +24,7 @@
       .card-links a {
         
         text-decoration: none;
-        color: #005c3c;
+        color: #01482f;
         margin-right: 20px;
       }
       
@@ -35,4 +35,8 @@
         box-shadow: 0 0 20px rgba(26, 250, 172, 0.5); /* Troque o box-shadow ao passar o mouse */
         transform: scale(1.05); /* Aumente o tamanho do card ao passar o mouse */
     }
+
+    .card-contato h2 {
+        color: #01482f; /* Cor do texto */
+      }
       

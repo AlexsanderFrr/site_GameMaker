@@ -26,10 +26,11 @@ body {
   background: linear-gradient(
     to right,
     #1cf440a5,
+    #1cf440a5,
     #029863,
-    #008054,
     #029863,
-    #1cf440a5
+    #008054
+    
   );
   border-radius: 10px;
   max-width: 1350px;
