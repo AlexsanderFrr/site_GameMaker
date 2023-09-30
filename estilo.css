@@ -99,6 +99,11 @@ body {
     margin: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .card {
+      width: 100%; /* Faz os cards ocuparem toda a largura disponível em telas menores */
+    }
+  }
 
 /* Variáveis de cores para cada card */
 :root {
