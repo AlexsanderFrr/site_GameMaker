@@ -9,7 +9,9 @@ body {
 
 /* Alterando a cor do texto na seção de descrição */
 .descricao {
-  color: white; /* Cor do texto para branco */
+  color: white; 
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 /* Estilos para telas menores, como tablets e dispositivos móveis */
@@ -53,10 +55,11 @@ body {
   text-decoration: none;
   transition: 0.3s;
   margin: 0 6px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Pixelify Sans', cursive;
   font-weight: 500;
   position: relative;
   text-align: left;
+  font-size: 20px;
 }
 
 /* Estilizando a faixa que aparece abaixo dos itens ao passar o mouse */
@@ -113,6 +116,14 @@ body {
   margin: 20px;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px; /* Espaçamento entre as colunas */
+  justify-content: center; /* Centraliza as colunas horizontalmente */
+}
+
+
 /* Variáveis de cores para cada card */
 :root {
   --leonardo-border-color: #3277fb;
@@ -130,6 +141,11 @@ body {
   text-align: center;
   transition: all 0.3s ease; /* Adicione uma transição suave para todos os estilos */
   overflow: hidden; /* Para evitar que o card "pule" ao aumentar o tamanho */
+}
+
+.title-card{
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 32px;
 }
 
 /* Estilizando cada card individualmente */
