@@ -90,6 +90,19 @@ body {
     margin: 10px 0; /* Adiciona espaço entre os itens do menu */
   }
 }
+@media screen and (max-width: 768px) {
+    /* Restringindo a largura da div de contêiner */
+    .nav-items-container {
+      overflow-x: auto; /* Habilitando a rolagem horizontal */
+      white-space: nowrap; /* Impedindo que os itens quebrem para uma nova linha */
+    }
+  
+    /* Estilizando os itens de navegação dentro da div de contêiner */
+    .nav-item {
+      display: inline-block; /* Exibindo os itens em linha */
+      margin-right: 10px; /* Espaçamento entre os itens */
+    }
+  }
 
 /* Estilos dos Cards */
 .cards {
