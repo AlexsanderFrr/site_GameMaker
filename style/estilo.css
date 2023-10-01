@@ -1,3 +1,23 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.flex.nav{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.flex.body{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+
+
 /* Estilos padrão para telas grandes */
 body {
   font-size: 16px;
@@ -121,6 +141,10 @@ body {
   }
 }
 
+.corpo-text{
+  flex: 1 0 120px;
+}
+
 
 /* Defina uma animação de brilho */
 
@@ -152,6 +176,7 @@ body {
     display: inline-block; /* Torna o botão um elemento de bloco inline */
     color: rgb(0, 0, 0); /* Cor do texto no botão */
     animation: brilho 2s infinite;
+    flex: 1 0 60px;
   }
   
   /* Estilo quando o mouse passa por cima do botão */
